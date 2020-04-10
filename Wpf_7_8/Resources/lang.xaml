@@ -1,0 +1,26 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+					xmlns:v="clr-namespace:System;assembly=mscorlib">
+    <v:String x:Key="AddTask">Add Task</v:String>
+    <v:String x:Key="Filter">Filter</v:String>
+    <v:String x:Key="Language">Language</v:String>
+    <v:String x:Key="Search">Search</v:String>
+    <v:String x:Key="CreationDate">Creation Date</v:String>
+    <v:String x:Key="Category">Category</v:String>
+    <v:String x:Key="Priority">Priority</v:String>
+    <v:String x:Key="FinishDate">Finish Date</v:String>
+    <v:String x:Key="Description">Description</v:String>
+    <v:String x:Key="NameTask">Name Task</v:String>
+    <v:String x:Key="Done">Done</v:String>
+    <v:String x:Key="byPriotity">By priority</v:String>
+    <v:String x:Key="Lowest">Lowest</v:String>
+    <v:String x:Key="Normal">Normal</v:String>
+    <v:String x:Key="Highest">Highest</v:String>
+    <v:String x:Key="byCategory">By category</v:String>
+    <v:String x:Key="Personal">Personal</v:String>
+    <v:String x:Key="Work">Work</v:String>
+    <v:String x:Key="Study">Study</v:String>
+    <v:String x:Key="Home">Home</v:String>
+    <v:String x:Key="byDate">By date</v:String>
+    <v:String x:Key="Reset">Reset</v:String>
+</ResourceDictionary>

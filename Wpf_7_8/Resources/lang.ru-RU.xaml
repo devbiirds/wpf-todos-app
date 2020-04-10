@@ -1,0 +1,26 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+					xmlns:v="clr-namespace:System;assembly=mscorlib">
+    <v:String x:Key="AddTask">Добавить задачу</v:String>
+    <v:String x:Key="Filter">Фильтр</v:String>
+    <v:String x:Key="Language">Язык</v:String>
+    <v:String x:Key="Search">Поиск</v:String>
+    <v:String x:Key="CreationDate">Дата создания</v:String>
+    <v:String x:Key="Category">Категория</v:String>
+    <v:String x:Key="Priority">Приоритет</v:String>
+    <v:String x:Key="FinishDate">Дата окончания</v:String>
+    <v:String x:Key="Description">Описание</v:String>
+    <v:String x:Key="NameTask">Название</v:String>
+    <v:String x:Key="Done">Статус</v:String>
+    <v:String x:Key="byPriotity">По приоритету</v:String>
+    <v:String x:Key="Lowest">Низкий</v:String>
+    <v:String x:Key="Normal">Средний</v:String>
+    <v:String x:Key="Highest">Высокий</v:String>
+    <v:String x:Key="byCategory">По категории</v:String>
+    <v:String x:Key="Personal">Личное</v:String>
+    <v:String x:Key="Work">Работа</v:String>
+    <v:String x:Key="Study">Учеба</v:String>
+    <v:String x:Key="Home">Дом</v:String>
+     <v:String x:Key="byDate">По дате</v:String>
+    <v:String x:Key="Reset">Сброс</v:String>
+</ResourceDictionary>
