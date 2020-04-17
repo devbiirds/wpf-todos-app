@@ -6,6 +6,12 @@
         xmlns:local="clr-namespace:Wpf_7_8.Services"
         mc:Ignorable="d"
         Title="CreateTask" Height="432.266" Width="743" >
+
+    <Window.CommandBindings>
+        <CommandBinding Command="New"
+                        Executed="New_Executed"
+                        ></CommandBinding>
+    </Window.CommandBindings>
     <Grid Width="747" Margin="0,0,0,-9" RenderTransformOrigin="0.503,0.545" HorizontalAlignment="Left">
     
         <DatePicker Name="EndDate" HorizontalAlignment="Left" Margin="382,67,244,297" VerticalAlignment="Top"  Width="120" SelectedDateChanged="EndDate_SelectedDateChanged"/>
@@ -23,6 +29,6 @@
         <Label Content="Имя Задачи" HorizontalAlignment="Left" Margin="227,227,0,0" VerticalAlignment="Top"/>
         <Label Content="Описание" HorizontalAlignment="Left" Margin="228,274,0,0" VerticalAlignment="Top"/>
 
-        <Button x:Name="button1" Content="Добавить" Click="Сlick_AddNewTask"  RenderTransformOrigin="1.117,-0.004" Margin="223,329,244,38" />
+        <Button x:Name="button1" Content="Добавить" Command="New"  RenderTransformOrigin="1.117,-0.004" Margin="223,329,244,38" />
     </Grid>
 </Window>

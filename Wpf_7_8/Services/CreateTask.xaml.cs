@@ -65,7 +65,7 @@ namespace Wpf_7_8.Services
                 
         }
 
-        private void Сlick_AddNewTask(object sender, RoutedEventArgs e)
+        private void New_Executed(object sender, ExecutedRoutedEventArgs e)
         {
             ToDoMod data = new ToDoMod(SelectedCategory,SelectedPriority,SelectedEndDate,SelectedDescription,SelectedTask,false);
             MainWindow.AddTask(data);

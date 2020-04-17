@@ -107,9 +107,12 @@ namespace Wpf_7_8
         public static void AddTask(ToDoMod data) {
             _toDoData.Add(data);
             }
+
+       
         private void _toDoData_ListChanged(object sender, ListChangedEventArgs e)
         {
-            if(e.ListChangedType == ListChangedType.ItemAdded || e.ListChangedType == ListChangedType.ItemDeleted || e.ListChangedType == ListChangedType.ItemChanged)
+            
+            if(e.ListChangedType == ListChangedType.ItemAdded || e.ListChangedType == ListChangedType.ItemDeleted || e.ListChangedType == ListChangedType.ItemChanged || e.ListChangedType == ListChangedType.ItemMoved)
             {
                 try
                 {
@@ -122,27 +125,7 @@ namespace Wpf_7_8
                 }
             }
         }
-        private void Click_Ru(object sender, RoutedEventArgs e)
-        {
-            MenuItem mi = sender as MenuItem;
-            CultureInfo lang = mi.Tag as CultureInfo;
-            if (lang != null)
-            {
-                App.Language = lang;
-            }
-
-        }
-
-
-        private void Click_En(object sender, RoutedEventArgs e)
-        {
-            MenuItem mi = sender as MenuItem;
-            CultureInfo lang = mi.Tag as CultureInfo;
-            if (lang != null)
-            {
-                App.Language = lang;
-            }
-        }
+      
 
         private void Click_Add(object sender, RoutedEventArgs e)
         {
@@ -214,10 +197,10 @@ namespace Wpf_7_8
             }
 
         }
-        private void Search(object sender, RoutedEventArgs e)
+        private void Search_Executed(object sender, ExecutedRoutedEventArgs e)
         {
             _saveToOrReadFrom = new SaveToOrReadFrom(SearchPath);
-            _searchIOService = new SaveToOrReadFrom(FilterPath);
+         
             _searchService = new SearchService();
             try
             {
@@ -231,11 +214,23 @@ namespace Wpf_7_8
                 throw;
             }
         }
-        private void ResetList(object sender, RoutedEventArgs e)
+        private void Reset_Executed(object sender, RoutedEventArgs e)
         {
             _saveToOrReadFrom = new SaveToOrReadFrom(Path);
             toDoL.ItemsSource = _toDoData;
             _toDoData.ListChanged += _toDoData_ListChanged;
         }
+        private void PromptWindow(object sender, EventArgs e)
+        {
+            Prompt prompt = new Prompt();
+            if (prompt.ShowDialog() == true)
+            {
+                _toDoData.RemoveAt(toDoL.SelectedIndex);
+                toDoL.ItemsSource = _toDoData;
+                _toDoData.ListChanged += _toDoData_ListChanged;
+                MessageBox.Show("Успешно удалено!");
+            }
+        }
+        
     }
 }

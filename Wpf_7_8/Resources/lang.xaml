@@ -23,4 +23,5 @@
     <v:String x:Key="Home">Home</v:String>
     <v:String x:Key="byDate">By date</v:String>
     <v:String x:Key="Reset">Reset</v:String>
+    <v:String x:Key="Delete">Delete</v:String>
 </ResourceDictionary>

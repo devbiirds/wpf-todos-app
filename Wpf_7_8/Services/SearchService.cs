@@ -22,9 +22,9 @@ namespace Wpf_7_8.Services
         }
         private static bool SearchPredicate(ToDoMod bk)
         {
-      
+     
             if (bk.Name.Contains(Search_parm) || bk.Description.Contains(Search_parm))
-            {
+            {   
                 return true;
             }
             else

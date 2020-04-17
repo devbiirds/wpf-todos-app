@@ -79,8 +79,12 @@
       <DependentUpon>CreateTask.xaml</DependentUpon>
     </Compile>
     <Compile Include="Services\FilterService.cs" />
+    <Compile Include="Services\Prompt.xaml.cs">
+      <DependentUpon>Prompt.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Services\SaveToOrReadFrom.cs" />
     <Compile Include="Services\SearchService.cs" />
+    <Compile Include="Services\WindowCommands.cs" />
     <Page Include="Resources\lang.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -102,6 +106,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Services\CreateTask.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Services\Prompt.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -23,4 +23,5 @@
     <v:String x:Key="Home">Дом</v:String>
      <v:String x:Key="byDate">По дате</v:String>
     <v:String x:Key="Reset">Сброс</v:String>
+    <v:String x:Key="Delete">Удалить</v:String>
 </ResourceDictionary>

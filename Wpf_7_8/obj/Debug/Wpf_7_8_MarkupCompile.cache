@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 D:\Wpf_7_8\Wpf_7_8\App.xaml
-41030547316
+5-20822310
 
-11786570578
+13257731490
 15-1966252081
-Resources\lang.xaml;Resources\lang.ru-RU.xaml;MainWindow.xaml;Services\CreateTask.xaml;
+Resources\lang.xaml;Resources\lang.ru-RU.xaml;MainWindow.xaml;Services\CreateTask.xaml;Services\Prompt.xaml;
 
 False
 

@@ -40,3 +40,5 @@ D:\Wpf_7_8\Wpf_7_8\obj\Debug\Wpf_7_8.pdb
 D:\Wpf_7_8\Wpf_7_8\obj\Debug\Resources\lang.baml
 D:\Wpf_7_8\Wpf_7_8\obj\Debug\Resources\lang.ru-RU.baml
 D:\Wpf_7_8\Wpf_7_8\obj\Debug\Wpf_7_8.csprojAssemblyReference.cache
+D:\Wpf_7_8\Wpf_7_8\obj\Debug\Services\Prompt.g.cs
+D:\Wpf_7_8\Wpf_7_8\obj\Debug\Services\Prompt.baml

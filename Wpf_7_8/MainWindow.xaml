@@ -1,14 +1,21 @@
 ﻿<Window x:Class="Wpf_7_8.MainWindow"
        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Планировщик дел" Height="450" Width="800" Loaded="Window_Loaded">
-
-
+        Title="Планировщик дел" Height="450" Width="800" Loaded="Window_Loaded"
+        xmlns:local="clr-namespace:Wpf_7_8.Services"
+        >
+    
+    <Window.CommandBindings>
+       
+        <CommandBinding Command="local:WindowCommands.Reset" Executed="Reset_Executed"/>
+        <CommandBinding Command="local:WindowCommands.Search" Executed="Search_Executed"/>
+    </Window.CommandBindings>
 
 
     <Grid>
         <Menu Background="{x:Null}" Grid.ColumnSpan="2">
                 <MenuItem x:Name="Task" Click="Click_Add" Header="{DynamicResource AddTask}" />
+                <MenuItem x:Name="DeleteTask" Click="PromptWindow" Header="{DynamicResource Delete}" />
                 <MenuItem x:Name="menuLanguage" Header="{DynamicResource Language}" />
                 <MenuItem Header="{DynamicResource Filter}">
                     <MenuItem Header="{DynamicResource byCategory}">
@@ -17,22 +24,20 @@
                         <MenuItem Header="{DynamicResource Study}" Click="MenuItem_Click_ByCategory"></MenuItem>
                         <MenuItem Header="{DynamicResource Personal}" Click="MenuItem_Click_ByCategory"></MenuItem>
                     </MenuItem>
-                    <MenuItem Header="{DynamicResource byPriotity}">
-                        <MenuItem Header="{DynamicResource Lowest}" Click="MenuItem_Click_ByPriority"></MenuItem>
-                        <MenuItem Header="{DynamicResource Normal}" Click="MenuItem_Click_ByPriority"></MenuItem>
-                        <MenuItem Header="{DynamicResource Highest}" Click="MenuItem_Click_ByPriority"></MenuItem>
-                    </MenuItem>
-                   
-
+                <MenuItem Header="{DynamicResource byPriotity}">
+                    <MenuItem Header="{DynamicResource Lowest}" Click="MenuItem_Click_ByPriority"></MenuItem>
+                    <MenuItem Header="{DynamicResource Normal}" Click="MenuItem_Click_ByPriority"></MenuItem>
+                    <MenuItem Header="{DynamicResource Highest}" Click="MenuItem_Click_ByPriority"></MenuItem>
                 </MenuItem>
-                <MenuItem x:Name="Reset" Click="ResetList"  Header="{DynamicResource Reset}" />
+            </MenuItem>
+            <MenuItem x:Name="Reset" Command="local:WindowCommands.Reset"  Header="{DynamicResource Reset}" />
                 <ToolBar Background="Gray">
                     <ToolBar Height="25" VerticalAlignment="Top">
 
                         <TextBox  x:Name="SearchInput" Width="100">Поиск...</TextBox>
                     </ToolBar>
                     <ToolBar>
-                        <Button Click="Search">
+                    <Button Command="local:WindowCommands.Search">
                             <StackPanel Orientation="Horizontal">
                                 <Ellipse Width="10" Height="10" Fill="Black"  />
                                 <TextBlock HorizontalAlignment="Right" Width="60" Margin="5 0 0 0">Найти</TextBlock>
