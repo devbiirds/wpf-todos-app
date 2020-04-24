@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\Wpf_7_8\Wpf_7_8\obj\Debug\
+D:\Study\2 курс 2 семестр\ООП\Labs\wpf-todos-app\Wpf_7_8\obj\Debug\
 Wpf_7_8
 none
 false
 DEBUG;TRACE
-D:\Wpf_7_8\Wpf_7_8\App.xaml
-5-20822310
+D:\Study\2 курс 2 семестр\ООП\Labs\wpf-todos-app\Wpf_7_8\App.xaml
+8578703615
 
-171646135402
-15-1966252081
-Resources\lang.xaml;Resources\lang.ru-RU.xaml;MainWindow.xaml;Services\CreateTask.xaml;Services\Prompt.xaml;
+181846816460
+15-667814321
+Resources\lang.xaml;Resources\lang.ru-RU.xaml;MainWindow.xaml;Services\CreateTask.xaml;Services\Prompt.xaml;Themes\dark.xaml;Themes\Generic.xaml;Themes\light.xaml;
 
-False
+True
 

@@ -24,4 +24,8 @@
     <v:String x:Key="byDate">By date</v:String>
     <v:String x:Key="Reset">Reset</v:String>
     <v:String x:Key="Delete">Delete</v:String>
+    <v:String x:Key="Window">Window</v:String>
+    <v:String x:Key="Themes">Themes</v:String>
+    <v:String x:Key="Dark">Dark</v:String>
+    <v:String x:Key="Ligth">Light</v:String>
 </ResourceDictionary>

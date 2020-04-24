@@ -24,4 +24,8 @@
      <v:String x:Key="byDate">По дате</v:String>
     <v:String x:Key="Reset">Сброс</v:String>
     <v:String x:Key="Delete">Удалить</v:String>
+    <v:String x:Key="Window">Окно</v:String>
+    <v:String x:Key="Themes">Темы</v:String>
+    <v:String x:Key="Dark">Темная</v:String>
+    <v:String x:Key="Ligth">Светлая</v:String>
 </ResourceDictionary>

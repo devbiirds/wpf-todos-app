@@ -42,3 +42,32 @@ D:\Wpf_7_8\Wpf_7_8\obj\Debug\Resources\lang.ru-RU.baml
 D:\Wpf_7_8\Wpf_7_8\obj\Debug\Wpf_7_8.csprojAssemblyReference.cache
 D:\Wpf_7_8\Wpf_7_8\obj\Debug\Services\Prompt.g.cs
 D:\Wpf_7_8\Wpf_7_8\obj\Debug\Services\Prompt.baml
+D:\Study\2 курс 2 семестр\ООП\Labs\wpf-todos-app\Wpf_7_8\bin\Debug\Wpf_7_8.exe.config
+D:\Study\2 курс 2 семестр\ООП\Labs\wpf-todos-app\Wpf_7_8\bin\Debug\Wpf_7_8.exe
+D:\Study\2 курс 2 семестр\ООП\Labs\wpf-todos-app\Wpf_7_8\bin\Debug\Wpf_7_8.pdb
+D:\Study\2 курс 2 семестр\ООП\Labs\wpf-todos-app\Wpf_7_8\bin\Debug\Newtonsoft.Json.dll
+D:\Study\2 курс 2 семестр\ООП\Labs\wpf-todos-app\Wpf_7_8\bin\Debug\Newtonsoft.Json.xml
+D:\Study\2 курс 2 семестр\ООП\Labs\wpf-todos-app\Wpf_7_8\obj\Debug\Resources\lang.baml
+D:\Study\2 курс 2 семестр\ООП\Labs\wpf-todos-app\Wpf_7_8\obj\Debug\Resources\lang.ru-RU.baml
+D:\Study\2 курс 2 семестр\ООП\Labs\wpf-todos-app\Wpf_7_8\obj\Debug\App.baml
+D:\Study\2 курс 2 семестр\ООП\Labs\wpf-todos-app\Wpf_7_8\obj\Debug\MainWindow.g.cs
+D:\Study\2 курс 2 семестр\ООП\Labs\wpf-todos-app\Wpf_7_8\obj\Debug\Services\CreateTask.g.cs
+D:\Study\2 курс 2 семестр\ООП\Labs\wpf-todos-app\Wpf_7_8\obj\Debug\Services\Prompt.g.cs
+D:\Study\2 курс 2 семестр\ООП\Labs\wpf-todos-app\Wpf_7_8\obj\Debug\App.g.cs
+D:\Study\2 курс 2 семестр\ООП\Labs\wpf-todos-app\Wpf_7_8\obj\Debug\Wpf_7_8_MarkupCompile.cache
+D:\Study\2 курс 2 семестр\ООП\Labs\wpf-todos-app\Wpf_7_8\obj\Debug\Wpf_7_8_MarkupCompile.lref
+D:\Study\2 курс 2 семестр\ООП\Labs\wpf-todos-app\Wpf_7_8\obj\Debug\MainWindow.baml
+D:\Study\2 курс 2 семестр\ООП\Labs\wpf-todos-app\Wpf_7_8\obj\Debug\Services\CreateTask.baml
+D:\Study\2 курс 2 семестр\ООП\Labs\wpf-todos-app\Wpf_7_8\obj\Debug\Services\Prompt.baml
+D:\Study\2 курс 2 семестр\ООП\Labs\wpf-todos-app\Wpf_7_8\obj\Debug\Wpf_7_8.g.resources
+D:\Study\2 курс 2 семестр\ООП\Labs\wpf-todos-app\Wpf_7_8\obj\Debug\Wpf_7_8.Properties.Resources.resources
+D:\Study\2 курс 2 семестр\ООП\Labs\wpf-todos-app\Wpf_7_8\obj\Debug\Wpf_7_8.csproj.GenerateResource.cache
+D:\Study\2 курс 2 семестр\ООП\Labs\wpf-todos-app\Wpf_7_8\obj\Debug\Wpf_7_8.csproj.CoreCompileInputs.cache
+D:\Study\2 курс 2 семестр\ООП\Labs\wpf-todos-app\Wpf_7_8\obj\Debug\Wpf_7_8.csproj.CopyComplete
+D:\Study\2 курс 2 семестр\ООП\Labs\wpf-todos-app\Wpf_7_8\obj\Debug\Wpf_7_8.exe
+D:\Study\2 курс 2 семестр\ООП\Labs\wpf-todos-app\Wpf_7_8\obj\Debug\Wpf_7_8.pdb
+D:\Study\2 курс 2 семестр\ООП\Labs\wpf-todos-app\Wpf_7_8\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Study\2 курс 2 семестр\ООП\Labs\wpf-todos-app\Wpf_7_8\obj\Debug\Themes\Generic.baml
+D:\Study\2 курс 2 семестр\ООП\Labs\wpf-todos-app\Wpf_7_8\obj\Debug\Themes\dark.baml
+D:\Study\2 курс 2 семестр\ООП\Labs\wpf-todos-app\Wpf_7_8\obj\Debug\Themes\light.baml
+D:\Study\2 курс 2 семестр\ООП\Labs\wpf-todos-app\Wpf_7_8\obj\Debug\Wpf_7_8.csprojAssemblyReference.cache
